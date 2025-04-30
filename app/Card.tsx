@@ -3,7 +3,6 @@ import Image from "next/image"
 const card = () => {
   return (
     <>
-        {/* <div className="card-grid"> */}
                <div className="card">
                  <Image src="/book-musk.png" alt="Elon Musk" width={150} height={220} />
                  <h3>Elon Musk</h3>
@@ -13,7 +12,6 @@ const card = () => {
                    <button>Comprar</button>
                  </div>
                </div> 
-         {/* </div>      */}
     </>
 
      /* <div className="card-grid">
